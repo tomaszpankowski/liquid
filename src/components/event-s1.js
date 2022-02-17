@@ -6,7 +6,7 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class EventS1 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex minh-25vh align-items-center py-5 pt-5">
+            <Container fluid className="event-s1 d-flex minh-25vh align-items-center py-5 pt-5">
                 <Row className="mx-0 w-100 mt-5">
                     <Col xs={{span:12,order:1}} md={{span:7,order:2}} className="minh-25vh"></Col>
                     <Col xs={{span:12,order:2}} md={{span:5,order:1}} className="minh-50vh d-flex align-items-center">
