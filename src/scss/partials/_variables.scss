@@ -1,13 +1,37 @@
 $prefix: "../../";
-$bg__error-img: $prefix+"img/error.jpg";
+$bg__about-img: 
+    $prefix+"img/about/about_s1.jpg",
+    $prefix+"img/about/about_s2.jpg",
+    $prefix+"img/about/about_s3.jpg";
+$bg__blog-img: 
+    $prefix+"img/blog/blog_s1.jpg";
 $bg__comingsoon-img: $prefix+"img/coming.jpg";
+$bg__contact-img: 
+    $prefix+"img/contact/contact_s1.jpg",
+    $prefix+"img/contact/contact_s2.jpg";
+$bg__error-img: $prefix+"img/error.jpg";
+$bg__event-img: 
+    $prefix+"img/event/event_s1.jpg",
+    $prefix+"img/event/event_s2.jpg",
+    $prefix+"img/event/event_s3.jpg";
+$bg__index-img: $prefix+"img/index/index_s1.jpg";
 $bg__privacy-img: $prefix+"img/privacy.jpg";
 $bg__init:
-    "error",
+    "about",
+    "blog",
     "comingsoon",
+    "contact",
+    "error",
+    "event",
+    "index",
     "privacy";
 $classes_init:
-    $bg__error-img,
+    $bg__about-img,
+    $bg__blog-img,
     $bg__comingsoon-img,
+    $bg__contact-img,
+    $bg__error-img,
+    $bg__event-img,
+    $bg__index-img,
     $bg__privacy-img;
 $footer-height: 57px;
