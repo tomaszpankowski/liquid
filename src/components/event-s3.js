@@ -9,7 +9,7 @@ class EventS3 extends Component{
             <Container fluid className="event-s3 d-flex minh-50vh align-items-center py-5 bg-secondary border-top border-dark">
                 <Row className="mx-0 w-100 px-3 text-shadow">
                     <Col xs={12} className="py-3">
-                        <h2 className="display-6 text-center text-md-start text-white text-uppercase">
+                        <h2 className="display-6 text-center text-md-start text-primary text-uppercase">
                             Lorem ipsum dolor
                         </h2>
                     </Col>

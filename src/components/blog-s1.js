@@ -9,13 +9,13 @@ class BlogS1 extends Component{
         return(    
             <Container fluid className="blog-s1 d-flex minh-50vh align-items-center py-5 border-top border-secondary pt-5">
             <Row className="mx-0 w-100 mt-5">
-                <Col xs={{span:12,order:1}} md={{span:7,order:2}} className="minh-25vh"></Col>
-                <Col xs={{span:12,order:2}} md={{span:5,order:1}} className="minh-50vh d-flex align-items-center">
+                <Col xs={{span:12,order:1}} md={{span:7,order:1}} className="minh-25vh"></Col>
+                <Col xs={{span:12,order:2}} md={{span:5,order:2}} className="minh-50vh d-flex align-items-center">
                     <div className="w-100 text-center text-md-start">
                         <h5 className="text-white">
                             Sed ut perspiciatis
                         </h5>
-                        <h2 className="dispaly-6 fw-bold text-white-50 text-shadow">
+                        <h2 className="dispaly-6 fw-bold text-primary text-shadow">
                             Unde omnis iste
                         </h2>
                         <p className="text-white">
