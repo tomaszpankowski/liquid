@@ -9,7 +9,7 @@ class AboutS3 extends Component{
             <Container fluid className="about-s3 d-flex minh-25vh align-items-center py-5 border-top border-dark">
                 <Row className="mx-0 w-100">
                     <Col xs={12} md={4} className="text-center p-4">
-                        <h3 className="text-secondary">
+                        <h3 className="text-primary">
                             Lorem ipsum dolor
                         </h3>
                         <p className="text-white">
@@ -22,7 +22,7 @@ class AboutS3 extends Component{
                         </p>
                     </Col>
                     <Col xs={12} md={4} className="text-center p-4">
-                        <h3 className="text-secondary">
+                        <h3 className="text-primary">
                             Lorem ipsum
                         </h3>
                         <p className="text-white">
@@ -35,7 +35,7 @@ class AboutS3 extends Component{
                         </p>
                     </Col>
                     <Col xs={12} md={4} className="text-center p-4">
-                        <h3 className="text-secondary">
+                        <h3 className="text-primary">
                             Lorem ipsum
                         </h3>
                         <p className="text-white">

@@ -1,1 +1,35 @@
 @include aoa-bg-series($bg__init,$classes_init);
+
+.bg{
+    &-navy{
+        background-color: $color__navy!important;
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "PermanentMarker";
+    letter-spacing: 1px;
+}
+
+header{
+    z-index: 10;
+}
+
+textarea{
+    resize: none;
+}
+
+@media all and (max-width:767px){
+    .navbar{
+        &-nav{
+            background-color: #666;
+            border: 1px solid #333;
+        }
+    }
+}
